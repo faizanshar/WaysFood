@@ -1,0 +1,158 @@
+/* NAVBAR */
+.nav-bg{
+    background-color: #FFC700;
+}
+.btn-header{
+    width: 120px;
+    height: 35px;
+    background-color: #433434;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container-btn{
+    display: flex;
+    background-color: #FFC700;
+}
+.container-afterLogin{
+    display: flex;
+    background-color: #FFC700;
+    width: 95px;
+    height: 35px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    border: none;
+}
+.container-afterLogin a{
+    background-color: #FFC700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+}
+.container-afterLogin a img{
+    width: 80%;
+    height: 80%;
+    background-color: #FFC700;
+    border: none;
+}
+.container-afterLogin button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.bg{
+    background-color: #FFC700;
+}
+.bg ul li a{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-weight: bold;
+    font-size: 15px;
+}
+.bg ul li a img{
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+}
+.bg ul li h6{
+    background-color: #ffffff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* MODAL */
+.bg-modal{
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 597px;
+}
+.container-modal{
+    width: 30%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.container-modal-login{
+    width: 30%;
+    height: 60%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.container-modal h3{
+    background-color: #ffffff;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FFC700;
+}
+.container-modal-login h3{
+    background-color: #ffffff;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FFC700;
+}
+.container-modal form{
+    width: 100%;
+    height: 85%;
+    background-color: #ffffff;
+}
+.container-modal-login form{
+    width: 100%;
+    height: 80%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-modal form p{
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 25px;
+    color: #B1B1B1;
+    font-weight: bold;
+}
+.container-modal-login form p{
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 35px;
+    color: #B1B1B1;
+    font-weight: bold;
+}
+.container-modal form a{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: gray;
+    cursor: pointer;
+}
+.container-modal-login form a{
+    text-decoration: none;
+    background-color: #ffffff;
+    color:gray; 
+    cursor: pointer;
+}
+.bg-input{
+    background-color: #D2D2D240;
+    margin-top: 22px;
+}
+.bg-btn{
+    background-color: #433434;
+    margin-top: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+

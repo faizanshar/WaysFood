@@ -1,0 +1,214 @@
+.txtTitle {
+  color: #613d2b;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.col-3 button {
+  width: 100%;
+  height: 100%;
+  background-color: #433434;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.col-3 button img {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+/* Group Right */
+.container-total-order {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.content-subtotal {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-qty {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-shipping {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-total {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.borderBottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.txt-title {
+  color: #000000;
+}
+.txt-rp {
+  color: #ff0000;
+}
+.txt-title-total {
+  color: #ff0000;
+  font-weight: bold;
+}
+.content-btn {
+  width: 100%;
+  height: 40px;
+  /* background-color: green; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+.content-btn button {
+  width: 80%;
+  height: 40px;
+  background-color: #433434;
+  justify-self: flex-end;
+  align-self: flex-end;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+/* Group Left */
+.container-list-order {
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 140px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-qty-img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+.content-qty-order {
+  min-width: 30%;
+  max-width: 60%;
+  height: 80%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.content-qty-order div {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+}
+.content-qty-order div input {
+  min-width: 30px;
+  max-width: 40px;
+  height: 30px;
+  border: none;
+  background-color: #f6e6da;
+  text-align: center;
+}
+.content-qty-order div button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+.content-img-order {
+  width: 30%;
+  height: 80%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-img-order img {
+  width: 100%;
+  height: 100%;
+}
+.content-total-order {
+  width: 50%;
+  height: 90%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.content-total-order p {
+  color: #ff1515;
+  background-color: transparent;
+}
+.content-total-order a {
+  width: 40px;
+  height: 40px;
+  /* background-color: red; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot-list-order {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-bottom: 30px;
+}
+
+/* MODAL  */
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  bottom: 0px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.marker {
+  background-image: url("../../public/icons/mylocation.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+}
+.container-modal {
+  width: 30%;
+  height: 85%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+

@@ -1,0 +1,20 @@
+/* Group Left */
+.content-profile{
+    width: 100%;
+    height: 280px;
+    /* background-color: green; */
+    margin-top: 30px;
+}
+.content-img{
+    width: 40%;
+    height: 280px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+/* Group Right */
+.content-history{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
